@@ -43,16 +43,16 @@ fi
 
 
 # Running the C++ example
-echo "________Running the C++ example________"
-cd parity-clib-examples/cpp && \
-  mkdir -p build && \
-  cd build && \
-  cmake .. && \
-  make && \
-  ./parity-example && \
-  cd .. && \
-  rm -rf build && \
-  cd ../..
+#echo "________Running the C++ example________"
+#cd parity-clib-examples/cpp && \
+#  mkdir -p build && \
+#  cd build && \
+#  cmake .. && \
+#  make && \
+#  ./parity-example && \
+#  cd .. && \
+#  rm -rf build && \
+#  cd ../..
 
 # Running tests
 echo "________Running Parity Full Test Suite________"
